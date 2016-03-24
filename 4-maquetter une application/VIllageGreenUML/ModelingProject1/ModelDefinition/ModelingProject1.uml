@@ -1,0 +1,2809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="67f3ef9c-2006-4706-be6b-e0064357717a"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="20e0e543-c280-4c45-a984-5b2d5ab37171"
+        name="client"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="bac54050-e6ee-4872-a64a-86d7614abd66"
+            isDerived="false"
+            sourceEndRoleName="client"
+            targetEndRoleName="consulter commande"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="680c7e69-ebd2-45cf-80e6-05d76b1cc759"
+              LastKnownName="consulter commande"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0a2d023-0ab5-4560-a375-f3ee0b781510"
+                  name="client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="171223ee-097f-4584-ad35-d9d5838758c8"
+                  name="consulter commande"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="07cd5513-6beb-4e7f-a13c-1e3cba71e65f"
+            isDerived="false"
+            sourceEndRoleName="client"
+            targetEndRoleName="éditer bon de commande"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="64c1444c-51cd-428c-ada8-b04f419c0c32"
+              LastKnownName="éditer bon de commande"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="413a048e-1329-4af1-8e93-934b05a278cd"
+                  name="client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8b3cfc8-1678-4c2b-93aa-58bf3b5dd4e7"
+                  name="éditer bon de commande"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="aa707d70-3630-4438-b0b6-ea919b188d1c"
+            isDerived="false"
+            sourceEndRoleName="client"
+            targetEndRoleName="effectuer réglement"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="de1de7ab-ccee-423a-9965-c17772aff9d9"
+              LastKnownName="effectuer réglement"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5ffb9942-57b2-490e-9867-82e650b5ee9b"
+                  name="client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="71e6fcae-6dba-4d7d-b394-2714eb682054"
+                  name="effectuer réglement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="9ef7d932-2618-4bfc-8026-d7dea4b7e16a"
+        name="Service commercial"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="612335db-3448-430b-9038-6830763920d5"
+            isDerived="false"
+            sourceEndRoleName="Service commercial"
+            targetEndRoleName="éditer détails des infos clients"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="48baf0c2-5f78-44bd-a227-fe135ac6af93"
+              LastKnownName="éditer détails des infos clients"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9aafc279-8ace-4b58-a7ea-d69d57f96b9a"
+                  name="Service commercial"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a739474e-48c4-4db4-bd40-f7bb4e394c0e"
+                  name="éditer détails des infos clients"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="849584b4-0a3c-4e57-8a5c-e63d20f5181e"
+            isDerived="false"
+            sourceEndRoleName="Service commercial"
+            targetEndRoleName="ajouter nouveau client"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7136112c-6c01-4979-9ddb-e4e8a28dd11d"
+              LastKnownName="ajouter nouveau client"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a89abd97-7f76-4555-a2c6-ee270b44b926"
+                  name="Service commercial"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dc5b9757-d8c0-4b97-8b67-5812dcaa5a70"
+                  name="ajouter nouveau client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ea755c4b-e0aa-4732-9252-f561bc75905d"
+            isDerived="false"
+            sourceEndRoleName="Service commercial"
+            targetEndRoleName="éditer bon de livraison"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="88f2cf1f-2ab5-4538-a3ce-6f1a6a535967"
+              LastKnownName="éditer bon de livraison"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="21f55a8e-1e0d-4509-895d-3c99a4cc3f5e"
+                  name="Service commercial"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3bb7d574-6440-4ae8-b79c-a5f938028593"
+                  name="éditer bon de livraison"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="31b62099-81af-4fd2-bb6a-fc8bf208e064"
+            isDerived="false"
+            sourceEndRoleName="Service commercial"
+            targetEndRoleName="éditer facture"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="12370dec-b205-4562-adee-465eda254e5f"
+              LastKnownName="éditer facture"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="890e944a-4fb8-4a4f-8cc7-c7250a836ad4"
+                  name="Service commercial"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="642bc9d2-3cbe-4fce-af60-202f19853637"
+                  name="éditer facture"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="638b143d-5f5c-4f24-a266-44bbfcd2f213"
+            isDerived="false"
+            sourceEndRoleName="Service commercial"
+            targetEndRoleName="éditer bon de commande"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="64c1444c-51cd-428c-ada8-b04f419c0c32"
+              LastKnownName="éditer bon de commande"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="95fc4217-02f9-4c46-96e8-77a98349e81e"
+                  name="Service commercial"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="80c5f1fd-e440-4bb7-92d8-00b9d995e53c"
+                  name="éditer bon de commande"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4cf5ed98-af17-46ec-85ce-d94ba0778bf5"
+            isDerived="false"
+            sourceEndRoleName="Service commercial"
+            targetEndRoleName="consulter commande"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="680c7e69-ebd2-45cf-80e6-05d76b1cc759"
+              LastKnownName="consulter commande"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c1773570-c3f6-4c93-a0e3-665964a30cf0"
+                  name="Service commercial"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="51c78b0d-73d8-40e3-8ad6-8d7cdff64769"
+                  name="consulter commande"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="0dfa9eba-bb5f-4a3a-a564-d5acdb50b4f0"
+        name="service relation fournisseur"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f0267383-6499-455a-9ed7-048c8e073a0e"
+            isDerived="false"
+            sourceEndRoleName="service relation fournisseur"
+            targetEndRoleName="commander produit fournisseur"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a74f1c28-5f04-41d5-99ee-9dea5306da56"
+              LastKnownName="commander produit fournisseur"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="269baf42-d935-447f-aed8-d8c452d7ba21"
+                  name="service relation fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91a0bfe4-1ff9-453e-8eb8-a732838393af"
+                  name="commander produit fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="99f138b7-63a4-4072-ad00-0570d9daccb6"
+            isDerived="false"
+            sourceEndRoleName="service relation fournisseur"
+            targetEndRoleName="gérer l'arborescence rubrique/sous-rubrique"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1f9be669-dc90-4269-b589-a5fb9069e867"
+              LastKnownName="mettre en place l'arborescence rubrique/sous-rubrique"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c7173b49-0c56-46cb-9c3e-db0ae9528b86"
+                  name="service relation fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ef6eb009-f422-4f43-8781-718413dbaa15"
+                  name="gérer l'arborescence rubrique/sous-rubrique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="10d5b943-e52c-4e3d-a3f6-f2306ddec93a"
+            isDerived="false"
+            sourceEndRoleName="service relation fournisseur"
+            targetEndRoleName="gérer les infos fournisseurs"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0a335407-a54d-4344-82f4-fd5424064f85"
+              LastKnownName="gérer les infos fournisseurs"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b82fe04e-492d-4afc-9b13-70a49fd70ded"
+                  name="service relation fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a582c9f9-926d-45b5-a1be-ec9d897f0fa9"
+                  name="gérer les infos fournisseurs"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="54ea2fc1-fecc-4574-baee-cd06f15ed591"
+            isDerived="false"
+            sourceEndRoleName="service relation fournisseur"
+            targetEndRoleName="publier nouveaux produits"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a017d64e-1575-487e-9403-fe3e6423417f"
+              LastKnownName="publier nouveaux produits"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="45aa41a8-f018-4a8d-a2fe-c06a8ea3a5b6"
+                  name="service relation fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f302d8e-cf63-48d4-9d71-66c527e331da"
+                  name="publier nouveaux produits"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cb2c106d-86f6-40d1-9dcd-2b364f2ed8d8"
+            isDerived="false"
+            sourceEndRoleName="service relation fournisseur"
+            targetEndRoleName="désactiver anciens produits"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3012ee07-037a-4875-abfc-d2b02f817089"
+              LastKnownName="désactiver anciens produits"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="da560d07-7c65-46b7-9714-dbc806b93a5d"
+                  name="service relation fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44e5912f-9342-43a3-8463-b454ceea9bb6"
+                  name="désactiver anciens produits"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="42861528-067f-4885-8cd9-db1bcf544803"
+            isDerived="false"
+            sourceEndRoleName="service relation fournisseur"
+            targetEndRoleName="éditer informations produit"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c8cf8b4f-2584-4cb0-8693-2bf48d33c2c4"
+              LastKnownName="éditer informations produit"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47a11500-d700-4a90-98c8-d06ff0cbdcab"
+                  name="service relation fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4468bb5d-2db8-4bdc-8d9f-b6acada179fb"
+                  name="éditer informations produit"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a017d64e-1575-487e-9403-fe3e6423417f"
+        name="publier nouveaux produits"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3012ee07-037a-4875-abfc-d2b02f817089"
+        name="désactiver anciens produits"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e06494b6-259a-4185-8d22-ff94ac2d9343"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1f9be669-dc90-4269-b589-a5fb9069e867"
+        name="mettre en place l'arborescence rubrique/sous-rubrique"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="48baf0c2-5f78-44bd-a227-fe135ac6af93"
+        name="éditer détails des infos clients"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="64c1444c-51cd-428c-ada8-b04f419c0c32"
+        name="éditer bon de commande"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="12370dec-b205-4562-adee-465eda254e5f"
+        name="éditer facture"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="88f2cf1f-2ab5-4538-a3ce-6f1a6a535967"
+        name="éditer bon de livraison"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="680c7e69-ebd2-45cf-80e6-05d76b1cc759"
+        name="consulter commande"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7136112c-6c01-4979-9ddb-e4e8a28dd11d"
+        name="ajouter nouveau client"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0a335407-a54d-4344-82f4-fd5424064f85"
+        name="gérer les infos fournisseurs"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a74f1c28-5f04-41d5-99ee-9dea5306da56"
+        name="commander produit fournisseur"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="de1de7ab-ccee-423a-9965-c17772aff9d9"
+        name="effectuer réglement"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6639d0c8-3cd9-44f8-a8d8-c4328a170866"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="7961aea7-aa18-4ac1-8533-4c136e4fee8c"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="5c83fcf0-e466-4231-a85c-8f2560acccbe"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="143f6053-b1e0-4c26-9b16-1d7f7b1ee163"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject1.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="8ac6f1ab-659c-4160-9130-14dc1043dd67"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject1.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ddab9fb9-e58f-46e1-8277-95be26c3fa39"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b08cdbfc-fdf8-4951-bc52-a4a7a6bd0577"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject1.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="8ac6f1ab-659c-4160-9130-14dc1043dd67"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a3cb03bd-672d-4458-b284-233aef190aee"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a5630774-e923-4bf6-9830-7f530db3b063"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ddab9fb9-e58f-46e1-8277-95be26c3fa39"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b08cdbfc-fdf8-4951-bc52-a4a7a6bd0577"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0bcdf4d9-958f-4a5a-b8a2-4df32b035094"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="143f6053-b1e0-4c26-9b16-1d7f7b1ee163"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1eec9507-0033-4548-bacf-06133e37bdd3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="af8436dc-9ba3-4e6d-844f-f4fc73b4e731"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d805d6c0-ab61-4dc2-91e3-bf7b60f3b383"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject1.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3a12217e-0d23-4d1b-a67d-519ea9b30a70"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject1.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="84cc1cc7-6cba-48cc-94bc-e35b916d0431"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="b9400c93-c178-4266-8e0f-6c04a4386b6f"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject1.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3a12217e-0d23-4d1b-a67d-519ea9b30a70"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d20b3571-5ad4-430a-9174-f4abab7c7d8d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="84cc1cc7-6cba-48cc-94bc-e35b916d0431"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e1751fd4-84dc-449d-8bce-9ef5246ff2d1"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b9400c93-c178-4266-8e0f-6c04a4386b6f"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c6020245-8624-4483-a7de-898a6c749c77"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d805d6c0-ab61-4dc2-91e3-bf7b60f3b383"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f7c2ebd0-fe81-4949-9648-21c92f25f919"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="db9f783c-2deb-4b11-bccd-48a2d51df105"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="6d96e8bb-3e48-433d-aa8a-ff431212449b"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject1.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="30db999c-aacb-4e79-8bca-4a715997378e"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject1.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1a1036a8-3d38-4eaa-83fe-c41403ca05c1"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8d7028a8-a7f2-4cfd-a8f8-759b61ca8359"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelingProject1.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="30db999c-aacb-4e79-8bca-4a715997378e"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="a99c4440-59ab-43a3-9777-9d76700dbc26"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1a1036a8-3d38-4eaa-83fe-c41403ca05c1"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ada89c0d-e842-49fb-ae07-6bccc16e31d9"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8d7028a8-a7f2-4cfd-a8f8-759b61ca8359"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="93f67e3b-109c-4369-adbc-631371e38db5"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="6d96e8bb-3e48-433d-aa8a-ff431212449b"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="70803965-dbb1-4337-a216-0194314eff46"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0bc1c294-0917-4b4e-b548-000c1172de85"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7a82ce7c-df44-4971-827b-2d95d86a0bd0"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject1.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="d90908d7-a688-4fab-a4de-5319d3675112"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject1.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ffd7b4ba-84f2-4d09-9473-a4bf11386acc"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="7cc40a59-2675-4e70-a8e1-c27b579867c7"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="ModelingProject1.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="d90908d7-a688-4fab-a4de-5319d3675112"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="af92859d-db0b-4f07-8602-24ec228da1d6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ae3f16ae-1f6f-45a8-bb8c-ada4eb833fdc"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ffd7b4ba-84f2-4d09-9473-a4bf11386acc"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="7cc40a59-2675-4e70-a8e1-c27b579867c7"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e2a21627-cbe8-4385-a261-fa57bd9a14be"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7a82ce7c-df44-4971-827b-2d95d86a0bd0"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="81ff8bd3-c416-4257-9855-05863266a238"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="11b1853d-fb9b-4776-9cd3-14fa9637f4f4"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="ffb62789-dbd8-4916-a8fe-ff1aa368e9f6"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject1.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="072d2ae4-ce48-4ea6-a146-8f77048100ad"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject1.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="67363a3a-1aaf-48b0-9148-1538ff7253b5"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="97ee996a-5bb7-4234-a1a1-7b9b8b6aa9f5"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelingProject1.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="072d2ae4-ce48-4ea6-a146-8f77048100ad"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bde860d4-f390-41df-b082-b135b57f119e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8e091279-4577-4ad6-9486-54d6e6b9e11c"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="67363a3a-1aaf-48b0-9148-1538ff7253b5"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="97ee996a-5bb7-4234-a1a1-7b9b8b6aa9f5"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="091b6b30-a545-490c-91a6-9314a6735e63"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+                LastKnownName="Créer une nouvelle commande"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="ffb62789-dbd8-4916-a8fe-ff1aa368e9f6"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8ecec280-2bcf-45f0-8b97-4ad216f823bf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+                LastKnownName="service commercial : Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="9c023782-3a4b-4413-b4cf-42b02a7b6d65"
+            name="Créer une nouvelle commande"
+            isActor="false"
+            lifelineDisplayName="Créer une nouvelle commande">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a5630774-e923-4bf6-9830-7f530db3b063"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0bcdf4d9-958f-4a5a-b8a2-4df32b035094"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e1751fd4-84dc-449d-8bce-9ef5246ff2d1"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c6020245-8624-4483-a7de-898a6c749c77"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ada89c0d-e842-49fb-ae07-6bccc16e31d9"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="93f67e3b-109c-4369-adbc-631371e38db5"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ae3f16ae-1f6f-45a8-bb8c-ada4eb833fdc"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e2a21627-cbe8-4385-a261-fa57bd9a14be"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8e091279-4577-4ad6-9486-54d6e6b9e11c"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="ModelingProject1.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="091b6b30-a545-490c-91a6-9314a6735e63"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelingProject1.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="aabf4768-d19b-4c6a-b653-ac0e8305b5c5"
+            name="service commercial : Service commercial"
+            isActor="true"
+            lifelineDisplayName="service commercial : Service commercial">
+            <represents>
+              <propertyMoniker
+                Id="62cd8b0c-b9d8-4b4d-80bc-ddd99395232a"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="8ac6f1ab-659c-4160-9130-14dc1043dd67"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="143f6053-b1e0-4c26-9b16-1d7f7b1ee163"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3a12217e-0d23-4d1b-a67d-519ea9b30a70"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d805d6c0-ab61-4dc2-91e3-bf7b60f3b383"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="30db999c-aacb-4e79-8bca-4a715997378e"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6d96e8bb-3e48-433d-aa8a-ff431212449b"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d90908d7-a688-4fab-a4de-5319d3675112"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7a82ce7c-df44-4971-827b-2d95d86a0bd0"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="072d2ae4-ce48-4ea6-a146-8f77048100ad"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject1.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="ffb62789-dbd8-4916-a8fe-ff1aa368e9f6"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject1.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="4788b587-776f-4000-9157-9c59d7fe11c3"
+            name="saisie reference client"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a5630774-e923-4bf6-9830-7f530db3b063"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ddab9fb9-e58f-46e1-8277-95be26c3fa39"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="594b7c39-1a38-4bc0-b8bc-1f54d0ce425f"
+            name="affichage resultat client"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b08cdbfc-fdf8-4951-bc52-a4a7a6bd0577"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0bcdf4d9-958f-4a5a-b8a2-4df32b035094"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="84270c96-de45-4e75-a4e2-c20532d00f86"
+            name="saisie recherche produit"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e1751fd4-84dc-449d-8bce-9ef5246ff2d1"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="84cc1cc7-6cba-48cc-94bc-e35b916d0431"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6f23a1b2-e5ed-40d4-aade-4ac5851ef88e"
+            name="affichage resultat produit"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b9400c93-c178-4266-8e0f-6c04a4386b6f"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c6020245-8624-4483-a7de-898a6c749c77"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="07f97469-34a5-4017-9a17-21952375535b"
+            name="user selectionne un article de la recherche"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ada89c0d-e842-49fb-ae07-6bccc16e31d9"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1a1036a8-3d38-4eaa-83fe-c41403ca05c1"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="ebb7fb6a-34c7-4824-ad67-bdcb7588a428"
+            name="sysytem ajoute à la liste de produit commandé"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8d7028a8-a7f2-4cfd-a8f8-759b61ca8359"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="93f67e3b-109c-4369-adbc-631371e38db5"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e0913e1b-04bd-4a08-a1c7-9793461054bd"
+            name="user confirme la commande"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ae3f16ae-1f6f-45a8-bb8c-ada4eb833fdc"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ffd7b4ba-84f2-4d09-9473-a4bf11386acc"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cec6ddc3-e35f-405d-9d8f-1440930de07d"
+            name="system demande validation des infos"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="7cc40a59-2675-4e70-a8e1-c27b579867c7"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e2a21627-cbe8-4385-a261-fa57bd9a14be"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="00319d4f-5454-4dea-91e0-9a022e36e816"
+            name="user clique sur &quot;ok&quot;"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8e091279-4577-4ad6-9486-54d6e6b9e11c"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="67363a3a-1aaf-48b0-9148-1538ff7253b5"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="37ebb5e0-0e0a-433c-92d2-81a8ede2e931"
+            name="system enregistre la nouvelle commande dans la  base"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="97ee996a-5bb7-4234-a1a1-7b9b8b6aa9f5"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="ModelingProject1.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="091b6b30-a545-490c-91a6-9314a6735e63"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="ModelingProject1.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="6ffedeba-5de9-49c7-9712-17c28c91f0e9"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="20e0e543-c280-4c45-a984-5b2d5ab37171"
+                LastKnownName="client"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7df0f803-1239-464e-8895-7a3874dcc83b"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <useCaseMoniker
+                Id="de1de7ab-ccee-423a-9965-c17772aff9d9"
+                LastKnownName="effectuer réglement"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="62cd8b0c-b9d8-4b4d-80bc-ddd99395232a"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="9ef7d932-2618-4bfc-8026-d7dea4b7e16a"
+                LastKnownName="Service commercial"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c8cf8b4f-2584-4cb0-8693-2bf48d33c2c4"
+        name="éditer informations produit"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="de6158cf-3c8f-4456-9dbc-f80ae2352ee7"
+        name="detail_livraison"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="2d6644a8-0073-4bc2-b2e3-a13ff9c83dbb"
+            isDerived="false"
+            sourceEndRoleName="detail_livraison"
+            targetEndRoleName="bon livraion"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="51915b16-bf2b-4d46-a855-ac8963e90d6c"
+              LastKnownName="bon livraion"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="14c9865d-81b1-4665-abd9-5636f6b44664"
+                  name="detail_livraison"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a57a086d-088e-4045-93cb-53f8916ac824"
+                  name="bon livraion"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="18b81b9a-cb0d-46b2-8ac2-462f619c6d35"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1326bc41-dd03-4631-9972-b9e3daa85ec8"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8ccfadc2-a5c0-4e8e-a4b1-98112c5ee38c"
+            isDerived="false"
+            sourceEndRoleName="detail_livraison"
+            targetEndRoleName="produit"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="eac9a540-630d-410a-a251-4fea609ab792"
+              LastKnownName="produit"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="297bf3ab-5bfa-4e00-9034-0e27220446e6"
+                  name="detail_livraison"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7bb1f245-557b-44c8-8e13-6ca1268c0b8d"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5dc663b4-92b4-4d01-8296-5d08dd9f6023"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c2f65be1-b9ed-4fbf-8876-406cea8d44c0"
+                  name="produit"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="8ffe829b-140a-4086-bd41-1dda301281eb"
+            name="livnum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="6f1cb652-41b4-4961-8767-fb6ad6384a0b"
+            name="proid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a3cb03bd-672d-4458-b284-233aef190aee"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1eec9507-0033-4548-bacf-06133e37bdd3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d20b3571-5ad4-430a-9174-f4abab7c7d8d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f7c2ebd0-fe81-4949-9648-21c92f25f919"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="a99c4440-59ab-43a3-9777-9d76700dbc26"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="70803965-dbb1-4337-a216-0194314eff46"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="af92859d-db0b-4f07-8602-24ec228da1d6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="81ff8bd3-c416-4257-9855-05863266a238"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bde860d4-f390-41df-b082-b135b57f119e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8ecec280-2bcf-45f0-8b97-4ad216f823bf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="51915b16-bf2b-4d46-a855-ac8963e90d6c"
+        name="bon livraion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="6a0b13a0-6eaa-483c-b0e0-f4428daf062c"
+            isDerived="false"
+            sourceEndRoleName="bon livraion"
+            targetEndRoleName="commande"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="20fce425-2c27-4b7f-a3c9-8afe989e733d"
+              LastKnownName="commande"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6b4248d5-e0f9-415a-a300-2f0c193d3fea"
+                  name="bon livraion"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6828e2bd-ebf9-4b4e-9d08-0f9a79307b15"
+                  name="commande"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="c011cc68-be42-4ca7-817b-c1feb336c484"
+            name="livnum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="06732966-5f11-493c-b294-fc56d5055984"
+            name="livadr"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="398b58c6-c14d-485b-8875-ce46687d2151"
+            name="comnum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="20fce425-2c27-4b7f-a3c9-8afe989e733d"
+        name="commande"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="b093fb49-825f-4d44-bb44-a3cc7684916d"
+            isDerived="false"
+            sourceEndRoleName="commande"
+            targetEndRoleName="client"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d6674a2c-267f-497f-b8c2-21d0ca7fbf03"
+              LastKnownName="client"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1cdfdae9-8e9d-449a-85bd-f03c8c266e96"
+                  name="commande"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="aca4a8d1-646b-491a-8c6c-1c0bd70b553e"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4ccda1c1-d0e7-4903-b4ad-0f4f10440159"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fe3e832c-1622-49fb-9ee7-ee3395ece3e8"
+                  name="client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="9dcec335-0cb5-426f-b9a1-cb39eee889c4"
+            name="comnum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="03ab1f41-cf13-4541-81d3-65b4da88a5c2"
+            name="comdat"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f4541ad0-f2cd-4bf7-a65f-be2d4a63fbc4"
+            name="cometa"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="358c4837-11e5-4e4a-bf10-edd146bc638b"
+            name="compri"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b1525d93-346a-4f22-8193-21f3bc31e25d"
+            name="redsup"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f6c322b7-0f22-4deb-aed5-11ed3c4984d8"
+            name="paidat"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="444d7503-a4a6-46a1-9fa6-0c0e7496b9b9"
+            name="paityp"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="fd64a7a4-19b7-4ab4-a53d-871fd78bd23b"
+            name="paidatpre"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="62ee4e64-bfb1-48d0-8b73-99b996fb5ef7"
+            name="cliref"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eac9a540-630d-410a-a251-4fea609ab792"
+        name="produit"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="4a1491e3-a340-492b-b06a-b3b761e139fb"
+            isDerived="false"
+            sourceEndRoleName="produit"
+            targetEndRoleName="compose"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c03fb82d-107a-4122-9319-d4489e97a64b"
+              LastKnownName="compose"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f557b306-a608-4e1d-9a2e-5d02e8dfcc8e"
+                  name="produit"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="effdde21-a60f-41ef-b7a7-a4e3729d3909"
+                  name="compose"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ec04bebf-74c3-4de4-acb6-31e8cc200dd5"
+            isDerived="false"
+            sourceEndRoleName="produit"
+            targetEndRoleName="fournisseur"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="888b7065-5021-4c07-97d0-4561af90fc90"
+              LastKnownName="fournisseur"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="63cb8251-8640-4ebe-8367-61ad81a44e95"
+                  name="produit"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="12d2065a-da3e-4970-b80c-36966090caca"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2f3bede8-439b-4d90-9112-a7cf7637aecd"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="79f3bc8c-4138-478c-bc6b-5477092b49a0"
+                  name="fournisseur"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="03d8f419-9206-4c99-953d-2baa033404e4"
+            isDerived="false"
+            sourceEndRoleName="produit"
+            targetEndRoleName="sous_rubrique"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="cf59d239-e957-4b9e-a2d9-11bd1c4ea194"
+              LastKnownName="sous_rubrique"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26a3f329-17c9-4ccf-96d9-8c4aa76e2432"
+                  name="produit"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5b1ac203-4eba-427f-ad61-f736973d4dde"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="041491c2-dfbc-473b-a3db-c09f741e7f18"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0e751937-62b3-4631-b5a8-ba0b8f419810"
+                  name="sous_rubrique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4481fbdf-3011-4030-8ccc-6bee87442f8a"
+            name="proid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="62e8ae73-dbbb-458b-bbb5-c2f5b0f88c0a"
+            name="prolib"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0bd2c655-90bd-4367-a621-7751aed4ed4e"
+            name="prodes"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="c6e85664-a0de-4ffd-97a4-d6833a15baa9"
+            name="propri"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="f9996541-f81a-45fb-8866-dc9da25e9d3e"
+            name="propho"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="7af5b2be-9fca-437e-8f84-63d8704b6f82"
+            name="procar"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a0df1d74-2ea2-4b9f-838f-587307cb4377"
+            name="prostk"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0a23cabe-d270-49eb-b26d-ced22c0ea39e"
+            name="reffou"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="661ab5d6-87e9-4a4b-a641-9ab79ef39388"
+            name="s_rubid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="e8c4675b-2b36-4e83-8bcf-efb2dfb15a17"
+            name="founum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b721b2aa-649e-4b2c-8de9-bd72cb12e2d1"
+        name="adresse"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="2199ad0c-d79e-47b3-b46a-ac71ab4fc715"
+            name="adrid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="9e137268-0233-4197-967f-21edc87a3661"
+            name="adrcli"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="1e4df86e-c325-4628-ae36-e7197996e36a"
+            name="cliref"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d6674a2c-267f-497f-b8c2-21d0ca7fbf03"
+        name="client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="ebc96844-0bd8-4374-84a4-f6cb46e1b1ae"
+            isDerived="false"
+            sourceEndRoleName="client"
+            targetEndRoleName="adresse"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="b721b2aa-649e-4b2c-8de9-bd72cb12e2d1"
+              LastKnownName="adresse"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2e0b6009-fa2d-42e1-8437-0f9671078961"
+                  name="client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="552cbb3a-a9bf-4695-83b9-81b2a33b3b13"
+                  name="adresse"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="162d3ed1-15c0-4ef5-a018-3a5519c72971"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bec7a97d-9600-43f3-919a-fd5317a99721"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4148933d-c0e8-4669-afc3-0575268944f4"
+            name="cliref"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="df83f5a2-205b-4cf6-b277-fd0252f327ba"
+            name="clicoe"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="2328aa60-28b5-45ac-a002-a7fcff1a3bd9"
+            name="clinom"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d584c048-148f-4879-82d9-fb70e0d4c9be"
+            name="clipre"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="dc4f3564-906c-47c2-9bc5-bbd28213f3fa"
+            name="clistat"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c03fb82d-107a-4122-9319-d4489e97a64b"
+        name="compose"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="38b13d12-6c60-4774-921f-ebe9f7f1e811"
+            isDerived="false"
+            sourceEndRoleName="compose"
+            targetEndRoleName="commande"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="20fce425-2c27-4b7f-a3c9-8afe989e733d"
+              LastKnownName="commande"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="37d41c13-eb71-44a9-8fc7-d982f69567d3"
+                  name="compose"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="003f3667-dfca-41a9-a74b-8885f73ab71e"
+                  name="commande"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="7d072b6f-0431-4d33-8300-6582d19fce46"
+            name="qtecom"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="781b3776-bba4-413a-b464-0cdc4110eb97"
+            name="discount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="000a7f20-3a7c-44e4-8498-73777c0b232f"
+            name="compuht"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="273b3c2f-4d23-474b-b8b9-532c9e8818a9"
+            name="proid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="98cb6278-cc47-48e9-b3e1-321e0aa6fc01"
+            name="comnum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="888b7065-5021-4c07-97d0-4561af90fc90"
+        name="fournisseur"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="e48c10f7-8c2e-4ac2-af1c-5f6df98559cd"
+            name="founum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="05365b07-7132-4db0-b17f-4660a3ad78d1"
+            name="founom"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="befe4771-582e-4a0f-b60c-8ff5526fbd57"
+            name="fouadr"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c4664b1d-0802-43f0-87cc-dd4a2df3ee6f"
+        name="rubrique"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="40e8d073-adf1-45db-9aef-18b77b4ae0ad"
+            name="rubid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="249422b4-ec32-4386-bb3e-316212ed11a5"
+            name="rubnom"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cf59d239-e957-4b9e-a2d9-11bd1c4ea194"
+        name="sous_rubrique"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="f3a74c4f-c581-4b84-8c27-0a4b31adccc2"
+            isDerived="false"
+            sourceEndRoleName="sous_rubrique"
+            targetEndRoleName="rubrique"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c4664b1d-0802-43f0-87cc-dd4a2df3ee6f"
+              LastKnownName="rubrique"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0b985bd8-423e-42ea-9487-07d4db8235a2"
+                  name="sous_rubrique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d80c529c-f723-4217-9412-365e1ac539da"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e3f98792-76f5-4316-a01b-c2ab98208ae5"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="42450ec3-874d-4232-b6fa-727b9c9d81c0"
+                  name="rubrique"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="d729a728-1981-4141-bd08-5333956d20ba"
+            name="s_rubid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="ee1bf419-7826-458e-937f-cca776862261"
+            name="s_rubnom"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="1b0a2473-985a-4d97-a094-88e9c148968e"
+            name="rubid"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

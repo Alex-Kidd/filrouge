@@ -1,0 +1,6 @@
+C:\Users\stagiaire\Desktop\CheckMail\FonctionsCheck\bin\Debug\FonctionsCheck.exe.config
+C:\Users\stagiaire\Desktop\CheckMail\FonctionsCheck\bin\Debug\FonctionsCheck.exe
+C:\Users\stagiaire\Desktop\CheckMail\FonctionsCheck\bin\Debug\FonctionsCheck.pdb
+C:\Users\stagiaire\Desktop\CheckMail\FonctionsCheck\obj\Debug\FonctionsCheck.csprojResolveAssemblyReference.cache
+C:\Users\stagiaire\Desktop\CheckMail\FonctionsCheck\obj\Debug\FonctionsCheck.exe
+C:\Users\stagiaire\Desktop\CheckMail\FonctionsCheck\obj\Debug\FonctionsCheck.pdb

@@ -1,0 +1,6 @@
+C:\Users\stagiaire\Desktop\CheckMail\testSplit\bin\Debug\testSplit.exe.config
+C:\Users\stagiaire\Desktop\CheckMail\testSplit\bin\Debug\testSplit.exe
+C:\Users\stagiaire\Desktop\CheckMail\testSplit\bin\Debug\testSplit.pdb
+C:\Users\stagiaire\Desktop\CheckMail\testSplit\obj\Debug\testSplit.exe
+C:\Users\stagiaire\Desktop\CheckMail\testSplit\obj\Debug\testSplit.pdb
+C:\Users\stagiaire\Desktop\CheckMail\testSplit\obj\Debug\testSplit.csprojResolveAssemblyReference.cache

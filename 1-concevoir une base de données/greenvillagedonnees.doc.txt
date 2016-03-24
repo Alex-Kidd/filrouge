@@ -1,0 +1,342 @@
+Dictionnaire de données 
+
+Nom : catalogue_rubrique
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : catalogue_sous_rubrique
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_libellé
+Type : Varchar
+Taille : 200,0
+Commentaire : 
+
+Nom : produit_description
+Type : Varchar
+Taille : 2000,0
+Commentaire : 
+
+Nom : produit_prix
+Type : Money
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_photo
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : particulier_coefficient
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : professionel_coefficient
+Type : Float
+Taille : 25,0
+Commentaire : 
+
+Nom : client_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : commercial_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : particulier_paiement
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : client_paiement
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_reference_fournisseur
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_nom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_quantite_commande
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : commande_statut
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : commande_date
+Type : Date
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_caractéristique
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : client_chiffre_daffaire
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_chiffre_daffaire
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : client_montant_commande
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : commande_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : catalogue_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : id_livraison
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : facture_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : livraison_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : comptabilite_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : apres_vente_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_photo
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_libelle
+Type : Varchar
+Taille : 200,0
+Commentaire : 
+
+Nom : produit_stock
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : commande_reduction_supplementaire
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : livraison_ville
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : livraison_rue
+Type : Varchar
+Taille : 60,0
+Commentaire : 
+
+Nom : livraison_code_postal
+Type : Int
+Taille : 5,0
+Commentaire : 
+
+Nom : livraison_nom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : livraison_prenom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : facture_ville
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : facture_rue
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : facture_code_postal
+Type : Int
+Taille : 5,0
+Commentaire : 
+
+Nom : facture_nom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : facture_prenom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : client_nom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : client_prenom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : client_ville
+Type : Varchar
+Taille : 50,0
+Commentaire : 
+
+Nom : client_rue
+Type : Varchar
+Taille : 100,0
+Commentaire : 
+
+Nom : client_code_postal
+Type : Int
+Taille : 5,0
+Commentaire : 
+
+Nom : client_coefficient
+Type : Float
+Taille : 25,0
+Commentaire : 
+
+Nom : client_professionel
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_rubrique
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_sous_rubrique
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_prenom
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_rue
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_ville
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_pays
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_telephone
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : fournisseur_mail
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : apres_vente_objet
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : commercial_chiffre_daffaire
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : livraison_produit_quantite
+Type : Varchar
+Taille : 25,0
+Commentaire : 
+
+Nom : facture_montant
+Type : Int
+Taille : 25,0
+Commentaire : 
+
+Nom : facture_date
+Type : Date
+Taille : 25,0
+Commentaire : 
+
+Nom : paiement_id
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : paiement_montant
+Type : Money
+Taille : 25,0
+Commentaire : 
+
+Nom : paiement_date_etablie
+Type : Date
+Taille : 25,0
+Commentaire : 
+
+Nom : produit_reference
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+
+Nom : client_reference
+Type : Auto_increment
+Taille : 25,0
+Commentaire : 
+

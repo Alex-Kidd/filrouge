@@ -1,0 +1,41 @@
+---description
+--use case création d'une commande
+
+--use case permettant la création d'une nouvelle commande 
+
+	workflow
+		-conditions
+.réservé au service commercial
+.le client doit être répertorié dans la base de données
+.les produits de la commande doivent exister dans les catalogue
+.s'il s'agit d'un client particulier un réglement à la commande est exigé
+.le client doit avoir une adresse valide 
+
+		-resultats
+.une commande et un bon de facturation sont enregistrés
+.un ou plusieurs bons de livraisons sont enregistrés
+.un réglement est effectué (dans le cas du client particulier) 
+.infos stock, clients mis ajour 
+ 	
+
+	Flot nominal
+
+.user (service commercial) saisit les références client (n'est pas client)
+.system affiche les resultat de la recherche (client non référencés)
+.user insère les produit dans la commande (produit pas en stock)
+.system affiche les produits ajoutés 
+.user valide les produits commandés 
+.system check infos client :.particuliers/pro
+			    .adresse de livraison
+			    .produit en stock
+
+	Flot alternatifs: 
+1.au moment de la saisie de la référence client --> le client n'est pas enregistré
+.arrêt du cas d'usage pour édition de fiche client
+2. Les produits commandés ne sont pas disponible en stock 
+.édition de bons de livraisons multiple afin de garantir la livraison des articles manquants à une date ultérieure 
+3.les infos clients sont incomplètes ou erronés
+.system signale l'erreur
+.user corrige
+.répétition until plus d'erreur
+	

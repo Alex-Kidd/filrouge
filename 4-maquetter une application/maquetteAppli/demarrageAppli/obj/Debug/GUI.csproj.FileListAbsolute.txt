@@ -1,0 +1,9 @@
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\bin\Debug\demarrageAppli.exe.config
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\bin\Debug\demarrageAppli.exe
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\bin\Debug\demarrageAppli.pdb
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.Form1.resources
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.Properties.Resources.resources
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.exe
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.pdb

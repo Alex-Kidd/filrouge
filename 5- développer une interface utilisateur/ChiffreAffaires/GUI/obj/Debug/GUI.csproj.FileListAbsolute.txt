@@ -1,0 +1,12 @@
+C:\Users\stagiaire\Desktop\ChiffreAffaires\GUI\bin\Debug\GUI.exe.config
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\bin\Debug\GUI.exe.config
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\bin\Debug\GUI.exe
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\bin\Debug\GUI.pdb
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\obj\Debug\GUI.Form1.resources
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\obj\Debug\GUI.exe
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\obj\Debug\GUI.pdb
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\bin\Debug\DAL.dll
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\GUI\bin\Debug\DAL.pdb

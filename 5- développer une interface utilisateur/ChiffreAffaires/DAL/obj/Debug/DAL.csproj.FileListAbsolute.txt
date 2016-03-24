@@ -1,0 +1,5 @@
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\DAL\bin\Debug\DAL.dll
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\DAL\bin\Debug\DAL.pdb
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\DAL\obj\Debug\DAL.dll
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\5- développer une interface utilisateur\ChiffreAffaires\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,6 @@
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\bin\Debug\demarrageAppli.exe.config
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.exe
+C:\Users\stagiaire\Desktop\csharp-filrouge\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.pdb
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\4-maquetter une application\maquetteAppli\demarrageAppli\bin\Debug\demarrageAppli.exe.config
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\4-maquetter une application\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.exe
+C:\Users\stagiaire\Desktop\VillageGreen_filrouge\4-maquetter une application\maquetteAppli\demarrageAppli\obj\Debug\demarrageAppli.pdb

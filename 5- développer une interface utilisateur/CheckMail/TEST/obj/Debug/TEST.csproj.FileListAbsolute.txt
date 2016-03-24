@@ -1,0 +1,9 @@
+C:\Users\stagiaire\Desktop\CheckMail\TEST\bin\Debug\TEST.dll
+C:\Users\stagiaire\Desktop\CheckMail\TEST\bin\Debug\TEST.pdb
+C:\Users\stagiaire\Desktop\CheckMail\TEST\bin\Debug\FonctionsCheck.exe
+C:\Users\stagiaire\Desktop\CheckMail\TEST\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\stagiaire\Desktop\CheckMail\TEST\bin\Debug\FonctionsCheck.pdb
+C:\Users\stagiaire\Desktop\CheckMail\TEST\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\stagiaire\Desktop\CheckMail\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
+C:\Users\stagiaire\Desktop\CheckMail\TEST\obj\Debug\TEST.dll
+C:\Users\stagiaire\Desktop\CheckMail\TEST\obj\Debug\TEST.pdb
